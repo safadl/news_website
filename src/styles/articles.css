@@ -26,11 +26,28 @@ h1 {
     flex-direction: column;
     margin-bottom: 50px;
   }
+  h1{
+    font-size: 60px;
+
+  }
 }
+@media (max-width: 400px) {
+  .forms {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  h1{
+    font-size: 40px;
+
+  }
+}
+
 
 @media (max-width: 900px) {
   .forms {
     flex-direction: column;
     margin: 50px;
+    font-size: 60px;
+
   }
 }
