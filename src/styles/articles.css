@@ -1,0 +1,36 @@
+.forms {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 50px;
+}
+h1 {
+  color: maroon;
+  text-align: center;
+  font-size: 80px;
+}
+.loading {
+  align-items: center;
+  flex: 1;
+  margin-top: 100px;
+  flex-direction: column;
+  text-align: center;
+}
+.root {
+  flex-grow: 1;
+}
+.media {
+  height: 250px;
+}
+@media (max-width: 600px) {
+  .forms {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .forms {
+    flex-direction: column;
+    margin: 50px;
+  }
+}
